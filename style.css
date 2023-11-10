@@ -5,7 +5,7 @@
 }
 header {
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     background-color: #129799;
 }
 .menu1 {
@@ -14,7 +14,7 @@ header {
 a {
     text-decoration: none;
     color: white;
-    padding: 80px;
+    padding: 50px;
     cursor: pointer;
     transition: 1s;
 }
@@ -39,12 +39,12 @@ width: 30%;
     margin-left: 100px;
 }
 .menu2 {
-
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 main {
     background-color: #FFA185;
+    padding: 100px;
 }
 .imagem {
     display: flex;
@@ -68,12 +68,22 @@ h2 {
 }
 h3 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 2
+    50px;
     font-size: 30px;
+    padding: 20px;
 }
 footer {
     background-color: #129799;
     width: 100%;
-    height: 10vh;
-    margin-right: 30px;
+    height: 100px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+.imgfooter {
+width:20%;
+height:60px;
+display: flex;
+justify-content: space-evenly;
+padding-top: 30px;
 }
