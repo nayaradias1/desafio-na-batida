@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +8,13 @@ header {
     width: 100%;
     height: 45vh;
     background-color: #129799;
+    padding: 20px;
+
 }
 .menu1 {
     text-align: center;
+    background-color: #129799;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 a {
     text-decoration: none;
@@ -25,22 +30,30 @@ h1 {
     color: white;
     display: flex;
     align-items: center;
+
 }
 .menu {
     display: flex;
     justify-content: center;
-   
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .menutext {
 width: 30%;
 }
 .menuimg {
-    width: 90%;
-    margin-left: 100px;
+    width: 50vw;
+    position: relative;
+    right: 200px;
+    bottom: 12px;
 }
 .menu2 {
     text-align: center;
     margin-top: 80px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 main {
     background-color: #FFA185;
@@ -58,33 +71,39 @@ figure {
 .text {
     font-size: 20px;
     width: 100%;
-    
-
 }
 h2 {
     color: white;
     margin-top: 50px;
     margin-bottom: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 h3 {
     text-align: center;
-    margin-top: 2
-    50px;
+    margin-top: 50px;
     font-size: 30px;
     padding: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 footer {
     background-color: #129799;
     width: 100%;
     height: 100px;
-    padding-bottom: 120px;
-    text-align: center;
-    margin-top: -30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 .imgfooter {
-width:20%;
-height:60px;
+width:40vw;
+height:100px;
+margin-bottom: 80px;
 display: flex;
 justify-content: space-evenly;
-padding-top: 30px;
+align-items: end;
+padding: 10px;
 }
