@@ -66,6 +66,16 @@ main {
     justify-content: space-evenly;
     align-items: center;
 }
+.boxcursor {
+    position: relative;
+}
+.cursor {
+    width: 1vw;
+    position: absolute;
+    bottom: 0px;
+    left: 32vw;
+    
+  }
 figure {
     margin-top: 3vh;
 }
